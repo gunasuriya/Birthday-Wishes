@@ -1,0 +1,63 @@
+@charset "utf-8";
+@media (min-width:801px) and (max-width:1024px){
+	h2{ margin:0}
+header{ padding:10px 20px}
+section{ padding:10px 20px;}
+section p{font-size: 15px; line-height: 22px; padding:0; text-align: left;}
+section img{ margin-top:30px}
+
+
+.column{margin-top:-10px;}
+section .column p{ padding:10px 0;}  
+.social img:first-child{ margin-left:17px}
+.wrapper1{ display:block} 
+
+.flex-direction-nav{ display:block}
+/*--Default*/
+html, body{ overflow-x:inherit}
+#first{ overflow:inherit}
+.gift-box{ display:none}
+#first,.gift-box,.third,#nav,#fifth,.whatwedo, .howwedo, .products, .contact,.customer,.gift-box-bt,.howwedoimg,.aboutImg,.whatweimg,.car,.inContent .contScroll p{ position:inherit}
+.loader{ display:none !important}
+.startscreen{ display:block !important}
+.inContent .contScroll{ left:0; height:auto; margin-left:inherit; padding:10px 15px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+.howwedoimg{ max-width:100%}
+.inContent .contScroll p{ margin:auto}
+.mouse{ left:inherit; margin-left:inherit}
+.btDevid{ display:none}
+.car-move{ margin-left:0}
+#first .intro p, #first .intro h1{ display:none}
+.intro{ padding:0;}
+.intro h1{ margin-top:0}
+.wrapper{ margin-top:0 !important}
+ #fifth{ top:0; height:500px !important} 
+.startscreen{ display:block !important} 
+/*Index page*/
+
+.section { width:100%;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+section {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+#first{ width:100%;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+.mouse{ margin-top:48%} 
+.intro p{ font-size: 26px;    padding: 30% 0 0;}
+.intro h1{font-size:60px; margin-bottom:0; margin-top:30px} 
+.afterFirst{ background:url("../images/rwd-gift.png") no-repeat scroll center bottom;background-size:25% auto  }
+.afterSecond{background:url("../images/1024/rwd-gift-1.png") no-repeat scroll center bottom}
+.afterThird { background:url("../images/1024/rwd-gift-2.png") no-repeat scroll center bottom }
+.afterThird p:nth-child(3){ padding-top:35px}
+.tpDevid{ height:113px}
+.purple2,.purple1{ display:none}
+.inContent .contScroll p{ font-size:14px; width:100%}
+header{ padding:9px 20px}
+.inner-logo{ padding:3px 0 8px}
+.aboutImg{ left:inherit; margin-left:inherit}
+.customer h2{ line-height:30px}
+.social{ margin:20px auto 0} 
+header{ display:none}
+.wrapper header{ display:none}
+.whatwedo h2, .howwedo h2, .customer h2, .products h2, .contact h2{ margin-top:30px}
+.btDevid{ display:block; height:340px}
+.subPage header{ display:block !important}
+.container{ width:100%;} 
+.container section{ padding:0}
+.ri-grid ul li, .ri-grid ul li a{ width:164px !important; height:164px !important} 
+}

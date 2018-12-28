@@ -1,0 +1,403 @@
+html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
+.skrollable {position:fixed;z-index:100}
+.skrollr-mobile .skrollable {position:absolute;}
+.skrollable .skrollable {position:absolute}
+.skrollable .skrollable .skrollable {position:static}
+.mouse{ left:50%; margin-left:-65px;}
+.bounce { -moz-animation: bounce 2s infinite;-webkit-animation: bounce 2s infinite; animation: bounce 2s infinite;}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+#ascrail2000 div{ width:10px !important}
+.section{ width:100%; height:100%;}
+#first{overflow: hidden;position:absolute; width:100%;} 
+.intro{ text-align:center; padding:160px 0; height:100%}
+.intro p{ font-size:25px; color:#6d6e71; line-height:20px; padding:20px 0; width:100%}
+.intro h1{ width:100%; color:#003bff; margin-top:60px}
+.gift-box{ position:absolute;left:50%; margin-left:-140px; bottom:0 }
+.gift-box img{ max-width:inherit}
+.gift-box-top{ clear:both; float:left; margin:-305px 0 0 -19px;}
+.gift-box-bt{ clear:both; float:left; position:absolute; bottom:0; z-index:9999}
+.red1{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(30deg);-ms-transform:rotate(30deg);-webkit-transform:rotate(30deg);}
+.red2{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(60deg);-ms-transform:rotate(60deg);-webkit-transform:rotate(90deg);}
+.red3{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);}
+.red4{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(140deg);-ms-transform:rotate(140deg);-webkit-transform:rotate(140deg);}
+.red5{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(180deg);-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);}
+.red6{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(60deg);-ms-transform:rotate(60deg);-webkit-transform:rotate(90deg);}
+
+.blue1{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(30deg);-ms-transform:rotate(30deg);-webkit-transform:rotate(30deg);}
+.blue2{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(60deg);-ms-transform:rotate(60deg);-webkit-transform:rotate(90deg);}
+.blue3{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);}
+.blue4{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(140deg);-ms-transform:rotate(140deg);-webkit-transform:rotate(140deg);}
+.blue5{position:absolute;left:50%; margin:0px 0px 0px -50px; bottom:0; z-index:999;transform:rotate(180deg);-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);}
+
+.purple1{position:absolute;left:50%; margin:0px 0px 0px -50px; margin-top:150px; z-index:999;}
+.purple2{position:absolute;left:50%; margin:0px 0px 0px -50px; top:155px; z-index:999;}
+
+.car-move{ background:#003bff; height:100%; width:100%; margin-left:-150%; z-index:99999}
+.heart{ height:100%; width:100%; z-index:9999999; position:absolute; top:0}
+.car{ bottom:0; position:absolute; right:-595px;}
+
+.third{background:#003bff;height:100%; width:100%; position:absolute; top:100%; z-index:999999}
+.inContent{ background:#FFF; padding:40px 0; text-align:center;}
+.inContent .contScroll{ padding:16px 0; height:100px; overflow:hidden;  border:0px solid #f00; position:relative; left:50%; margin-left:-400px}
+.inContent .contScroll p{ font-size:23px; color:#6d6e71; line-height:26px; position:absolute; width:800px}
+.inContent .contScroll p a{ text-decoration:none; color:#6d6e71;} 
+.tpDevid{ background:url(../images/cont-divider.png) repeat-x bottom; width:100%;height:200px;}
+.btDevid{ background:url(../images/cont-divider.png) repeat-x bottom; transform:rotate(180deg);-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg); height:350px;}
+
+
+#firstDublicate{overflow: hidden;position:absolute; width:100%; z-index:9999999; padding-top:35%;} 
+#fifth{position:absolute; width:100%; height:100%; z-index:999999; background:#FFF; top:100%; padding-top:50px}
+.wrapper{ padding:0px 0px}
+header{ background:#003bff; padding:10px 30px; overflow:hidden}
+.inner-logo{ float:left; padding:10px 0px 8px 0px}
+nav{ float:right; padding:15px 0;} 
+.whatwedo, .howwedo, .products, .contact{ position:absolute;top:82px;width:100%; height:100%; z-index:9999999}
+#nav{position:absolute;top:0px;width:100%; }
+.navigation{z-index:999999999}
+.customer{position:absolute;top:0px;width:100%; height:100%; z-index:9999999}
+section h2, .whatwedo h2, .howwedo h2, .customer h2, .products h2, .contact h2{ width:100%; margin-top:0px;color:#ff1d25;} 
+section{ text-align:center; padding:50px 0px 0px 0px}
+section p{ font-size:25px; color:#6d6e71; line-height:26px; padding:20px 15%}
+.aboutImg{ position:absolute; bottom:0px; left:50%; margin-left:-60px;}
+.whatweimg{position:absolute; bottom:0px; left:50%;} 
+.productsImg{ margin-top:20px}
+div .products li a{cursor:pointer}
+.howwedoimg{ max-width:inherit;position:absolute; bottom:0px; }
+.column{ width:32.3%; margin-left:1%; float:left; text-align:center; background:#FFF; margin-top:40px }
+.column h2{ margin:0; padding-top:20px;}
+
+.contact{ text-align:center; width:100%;}
+.social{ width:575px; margin:30px auto; overflow:hidden}
+.social img { margin-left:23px; float:left}
+.social img:first-child { margin-left:0;}
+.customer > h2{ margin-top:82px}
+#loadMap{ width:100%; height:300px;}
+#map_canvas{ width:100%; height:300px; clear:both; margin-top:30px}
+
+.btAddr{ position:fixed}
+.wrapper1 {
+    margin: 0 auto;
+    width: 960px;
+	position:absolute
+}
+.posiR {
+    position: relative;
+}
+ 
+address {
+	width:300px;
+	padding:20px;
+	position:absolute;
+	top:110px;
+	left:50px;
+	background:#fff;
+	font-style:normal;
+	color:#000;
+	box-shadow:0 0 4px 0px rgba(0, 0, 0, 0.7);
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;	
+}
+
+address .slides li {
+	float:left;
+	position:relative;
+	width:100%	
+}
+address .flex-direction-nav a {
+    cursor: pointer;
+    display: block;
+    height: 13px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 10px;
+    width: 7px;
+    z-index: 10;
+}
+address .flex-direction-nav .flex-next {
+    background: url("../images/flex-next.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    right: 10px;
+}
+address .flex-direction-nav .flex-prev {
+    background: url("../images/flex-prev.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    left: auto;
+    right: 30px;
+}
+address li{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.flex-control-nav {
+    bottom: inherit;
+    left: 0;
+    line-height: 0;
+    padding: 4px 10px;
+    text-align: left;
+    top: 15px;
+    width: auto;
+	position:absolute
+}
+.flex-control-nav li {
+    display: inline-block;
+    margin: 0 6px;
+}
+.flex-control-paging li a {
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    text-indent: -9999px;
+    width: 10px;
+}
+.flex-control-paging li a {
+    background: none repeat scroll 0 0 #E5E5E5;
+}
+
+.flex-control-paging li a.flex-active {
+    background: none repeat scroll 0 0 #27AE60;
+}
+.flex-control-paging li a.flex-active {
+    cursor: default;
+}
+
+/*html, body{ overflow-x:inherit}
+#first{ overflow:inherit}
+.gift-box{ display:none}
+#first,.gift-box,.third,#nav,#fifth,.whatwedo, .howwedo, .products, .contact,.customer,.gift-box-bt,.howwedoimg,.aboutImg,.whatweimg,.car,.inContent .contScroll p{ position:inherit}
+.loader{ display:none !important}
+.startscreen{ display:block !important}
+.inContent .contScroll{ left:0; height:auto; margin-left:inherit}
+.howwedoimg{ max-width:100%}
+.inContent .contScroll p{ margin:auto}
+.mouse{ left:inherit; margin-left:inherit}
+.btDevid{ display:none}
+.car-move{ margin-left:0}
+#first .intro p, #first .intro h1{ display:none}
+.intro{ padding:0;}
+.intro h1{ margin-top:0}
+.wrapper{ margin-top:0 !important}
+ #fifth{ top:0; height:500px !important}*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
